@@ -1,0 +1,17 @@
+\\test and deploy 
+cd backend/ExpenseTracker.Api
+func start
+
+\\Test Backend Locally:
+
+cd backend/ExpenseTracker.Api
+func start
+\\Use Postman to test POST http://localhost:7071/api/expenses
+\\Deploy Infrastructure:
+cd infra
+terraform init
+terraform apply
+\\Deploy Frontend:
+
+cd frontend
+npm start
