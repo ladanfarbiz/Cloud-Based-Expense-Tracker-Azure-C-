@@ -1,0 +1,4 @@
+mkdir -p backend/ExpenseTracker.Api  
+cd backend/ExpenseTracker.Api  
+dotnet new func  
+dotnet add package Microsoft.Azure.Cosmos  
